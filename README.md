@@ -112,6 +112,21 @@ Kalau ditolak, status-nya nyebut **check mana yang gagal dan cara benerinnya**. 
 
 Papan peringkatnya live di halaman bounty. Entry lu kelihatan publik (screenshot + link repo) begitu diterima; commit dan transcript-nya cuma lu dan panitia yang lihat.
 
+## Checklist cepat sebelum submit
+
+Jalanin ini tiap kali, urutannya penting:
+
+- [ ] Session agent dimulai **setelah** bounty dibuka (cek jam buka di halaman bounty).
+- [ ] File entry ditulis **di dalam** session itu, dan **diedit minimal dua kali** — bukan sekali tulis lalu ditinggal.
+- [ ] `LICENSE` ada di root repo, isinya lisensi OSI-approved (MIT paling gampang).
+- [ ] `README.md` ada di root, nama persisnya itu, dan isinya nyebut kode referral lu.
+- [ ] Repo **publik**, About-nya nunjuk ke halaman make.fun, dan topiknya ada `makefun`.
+- [ ] `node cli/makefun.mjs check` dijalanin dan **semua** keluarannya udah dibenerin, termasuk yang cuma saran.
+- [ ] Commit yang mau di-submit udah di-push, dan SHA-nya lu catat lengkap 40 karakter.
+- [ ] Bundle transcript dibuat dari session yang sama (bukan session lain, bukan hasil tulis ulang).
+
+Kalau ada satu aja yang kelewat, entry-nya ditolak — dan penolakan tetap makan kuota submit harian.
+
 ## Langkah 7 — Klaim hadiahnya
 
 Kalau entry lu masuk peringkat:
